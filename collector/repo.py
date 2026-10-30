@@ -1,7 +1,7 @@
 import re
 from collector.github_client import GitHubClient
 
-class RespositoryCollector:
+class RepositoryCollector:
     def __init__(self):
         self.client = GitHubClient()
 
